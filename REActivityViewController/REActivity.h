@@ -34,6 +34,7 @@ typedef void (^REActivityActionBlock)(REActivity *activity, REActivityViewContro
 
 @property (strong, readonly, nonatomic) NSString *title;
 @property (strong, readonly, nonatomic) UIImage *image;
+@property (strong, nonatomic) UIColor *textColor;
 @property (copy, nonatomic) REActivityActionBlock actionBlock;
 @property (strong, nonatomic) REActivityViewController *activityViewController;
 @property (strong, nonatomic) NSDictionary *userInfo;
